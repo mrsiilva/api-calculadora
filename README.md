@@ -53,7 +53,7 @@ Após isso, pode ir para o body e seguir as instruções abaixo para calcular.
  ### Calculos:
 <li>Para fazer calculos de soma utilize a url: http://localhost:5000/calculadora/soma</li>
 <li>Para os de subtração utilize: http://localhost:5000/calculadora/subtracao</li>
-<li>Passe como parametro em json, o valor1 e o valor2. Exemplo:
+<li>Passe como parametro em json, value1 e value2. Exemplo:
 </ul>
 
 ```
