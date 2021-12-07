@@ -1,5 +1,8 @@
 
-# API Calculadora
+# API Calculadora <img align = "center" height="50px" width="90px" alt= "Computer Girl" src="https://studio.code.org/v3/assets/hTOKC2-Q3nkUS3tLR0yP2oVZFbIh3lJL0BcbC4NeKss/ca.gif"/>
+
+
+
 
 ## Descrição da Aplicação
 <p>Essa é uma aplicação Node.js que faz a soma e subtração de numeros<br>
@@ -59,7 +62,7 @@ Após isso, pode ir para o body e seguir as instruções abaixo para calcular.
     "value2": 10
 }
 
-Obs Importante:
+Obs Importante!!!
 Apenas esses números estão disponiveis como resultado:
 M:1000
 CM:900
