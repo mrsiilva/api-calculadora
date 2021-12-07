@@ -13,8 +13,6 @@
  - E para rodar a api, simule com o [Postman](https://www.postman.com/).
  ```
 <hr>
-<br>
-
 
 ### Começando 🚀
 <ul>
@@ -40,7 +38,9 @@ Em formato json digite o email e senha cadastrados.
 }
 ``` 
 Será gerado um token, copie ele, acesse a rota de calculo que você quer, <br>
-Clique em Authorization, em type escolha Bearer Token como na imagem abaixo e cole
+Clique em Authorization, em type escolha Bearer Token como na imagem abaixo e cole o token
+<br>
+![Screenshot_1](https://user-images.githubusercontent.com/91692834/145082423-f7e2cea4-53da-4b7f-bae4-9969f4166581.png)
 
 
 <br>
@@ -72,9 +72,9 @@ IV:4
 I:1
 ```
 
-<br>
+<hr>
 
-### 🎲 Rodando o Back End (servidor):
+### Rodando o Back End (servidor) 🎲:
 ```
 # Clone este repositório
 $ git clone <https://github.com/tgmarinho/nlw>
