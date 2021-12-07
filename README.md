@@ -5,13 +5,17 @@
 <p>Essa é uma aplicação Node.js que faz a soma e subtração de numeros<br>
  romanos. E com implementação do JWT para autenticação de usuários.<br>
  Tornando possível apenas usuarios autenticados terem acesso a essas rotas de calculos.</p>
- 
+
+### Ferramentas utilizadas ⚙:
+- Node.js
+- Express
+- JavaScript
+- JWT
+
 ### Pré-Requisitos:
  Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-```
  - [Node.js](https://nodejs.org/en/)
  - E para rodar a api, simule com o [Postman](https://www.postman.com/).
- ```
 <hr>
 
 ### Começando 🚀
@@ -41,9 +45,9 @@ Será gerado um token, copie ele, acesse a rota de calculo que você quer, <br>
 Clique em Authorization, em type escolha Bearer Token como na imagem abaixo e cole o token
 <br>
 ![Screenshot_1](https://user-images.githubusercontent.com/91692834/145082423-f7e2cea4-53da-4b7f-bae4-9969f4166581.png)
-
-
-<br>
+Após isso, pode ir para o body e seguir as instruções abaixo para calcular.
+ 
+ ### Calculos:
 <li>Para fazer calculos de soma utilize a url: http://localhost:5000/calculadora/soma</li>
 <li>Para os de subtração utilize: http://localhost:5000/calculadora/subtracao</li>
 <li>Passe como parametro em json, o valor1 e o valor2. Exemplo:
@@ -77,10 +81,10 @@ I:1
 ### Rodando o Back End (servidor) 🎲:
 ```
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw>
+$ git clone https://github.com/mrsiilva/api-calculadora.git
 
 # Acesse a pasta do projeto no terminal
-$ cd API-De-Calculadora
+$ cd api-calculadora
 
 # Instale as dependências
 $ npm install express
@@ -92,9 +96,5 @@ $ node index.js
 # O servidor iniciará na porta:5000
 ```
 <hr>
-<br>
 
-
-
-
-### Autora: Rúbia Silva
+#### Autora: Rúbia Silva
